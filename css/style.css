@@ -1,0 +1,1197 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/lato_bold.woff2") format("woff2"), url("../fonts/lato_bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/lato_regular.woff2") format("woff2"), url("../fonts/lato_regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/lato_black.woff2") format("woff2"), url("../fonts/lato_black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFProDisplay-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lutsk-sity";
+	src: url("../fonts/Lutsk-sity.woff2") format("woff2"), url("../fonts/Lutsk-sity.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AmerikaPro";
+	src: url("../fonts/AmerikaPro.woff2") format("woff2"), url("../fonts/AmerikaPro.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brozas";
+	src: url("../fonts/Brozas-ExtraBlack.woff2") format("woff2"), url("../fonts/Brozas-ExtraBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "KenyanCoffeeStencilSb";
+	src: url("../fonts/KenyanCoffeeStencilSb-Regular.woff2") format("woff2"), url("../fonts/KenyanCoffeeStencilSb-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Kramola";
+	src: url("../fonts/Kramola.woff2") format("woff2"), url("../fonts/Kramola.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RedOctober";
+	src: url("../fonts/RedOctoberLight.woff2") format("woff2"), url("../fonts/RedOctoberLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RuslanDisplay";
+	src: url("../fonts/RuslanDisplay.woff2") format("woff2"), url("../fonts/RuslanDisplay.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Veles";
+	src: url("../fonts/Veles-Bold.woff2") format("woff2"), url("../fonts/Veles-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Veselka4F";
+	src: url("../fonts/Veselka4F.woff2") format("woff2"), url("../fonts/Veselka4F.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "StalinistOne";
+	src: url("../fonts/StalinistOne-Regular.woff2") format("woff2"), url("../fonts/StalinistOne-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: rgb(89, 97, 87);
+}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.header-top {
+	width: 1100px;
+	height: 100px;
+	background-color: rgb(156, 156, 156);
+	border-radius: 30px;
+	margin: 0 auto;
+	border-top: 8px double rgb(56, 56, 56);
+	border-right: 8px double rgb(56, 56, 56);
+	border-bottom: 8px double rgb(56, 56, 56);
+	border-left: 8px double rgb(56, 56, 56);
+}
+
+.online-course {
+	margin-bottom: 60px;
+}
+
+.course {
+	font-family: "lato";
+	background-color: white;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.block-course {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 46px;
+	font-weight: 900;
+	color: black;
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 5px rgb(37, 37, 37);
+	padding-top: 50px;
+}
+
+.text-bibendum {
+	color: #424551;
+	margin-bottom: 45px;
+	line-height: 1.5
+}
+
+.list-learn {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(78, 78, 78);
+	margin: 0px 0px 60px 0px;
+}
+
+.list-learn li {
+	padding: 0px 0px 0px 30px;
+	margin-bottom: 15px;
+	background-color: rgb(141, 127, 155);
+	background: url("../img/OnlineCourse/check.svg") 0 2px / 16px no-repeat;
+}
+
+.list-learn li:last-child {
+	margin: 0;
+}
+
+/* .list-learn li {
+	margin-bottom: 10px;
+}
+
+.list-learn li::before {
+	content: "";
+	width: 16px;
+	min-height: 16px;
+	display: inline-block;
+	margin: 0px 15px -3px 0px;
+	background: url("../img/OnlineCourse/check.svg") 0 0px / 16px no-repeat;
+	transition: all 0.5s ease 0s;
+}
+
+.list-learn li:hover::before {
+	transform: scale(1.5);
+} */
+
+.subtitle,.subtitle-hike {
+	font-size: 28px;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+.block-nine {
+	margin-bottom: 100px;
+}
+
+.subtitle-curator {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.title-fisher {
+	font-size: 46px;
+	font-weight: 900;
+	color: black;
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 5px rgb(37, 37, 37);
+}
+
+.list-senior {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(78, 78, 78);
+	margin: 0px 0px 30px 0px;
+	font-weight: 700;
+}
+
+.list-senior li{
+	padding: 0px 0px 0px 30px;
+	margin-bottom: 15px;
+	text-align: start;
+}
+
+.list-senior li:last-child {
+	margin: 0;
+}
+
+.text-signature {
+	color: #787A80;
+	margin-bottom: 30px;
+}
+
+.rate {
+	background: url("../img/OnlineCourse/star.svg") 0 2px / 16px no-repeat;
+}
+
+.courses {
+	background: url("../img/OnlineCourse/play.svg") 0 2px / 16px no-repeat;
+}
+
+.students {
+	background: url("../img/OnlineCourse/person.svg") 0 2px / 16px no-repeat;
+}
+
+.text-mattis {
+	color: #424551;
+	padding-bottom: 50px;
+	line-height: 1.5
+}
+
+.block-ten {
+	max-width: 1100px;
+	margin: 0px auto;
+	font-family: "Lobster";
+	font-size: 20px;
+	background-image: url("../img/5.jpg") ; 
+	background-size: 100%;
+	background-position: top;
+	background-repeat: round;
+	background-attachment: fixed;
+	padding: 20px;
+	color: rgb(245, 231, 206);
+	border-radius: 30px;
+}
+
+.block-moutain {
+	margin-bottom: 30px;
+}
+
+.title-one {
+	font-size: 46px;
+	font-family: "Roboto Slab";
+	font-weight: 900;
+	color: black;
+	margin: 0 auto;
+	max-width: 810px;
+	min-height: 100px;
+	background-color: rgb(156, 156, 156);
+	border-radius: 30px;
+	border-top: 8px double rgb(56, 56, 56);
+	border-right: 8px double rgb(56, 56, 56);
+	border-bottom: 8px double rgb(56, 56, 56);
+	border-left: 8px double rgb(56, 56, 56);
+	text-align: center
+}
+
+.title-one:hover {
+	background-color: rgb(213, 214, 146);
+}
+
+.title-one::after {
+	content: "";
+	display: block;
+	height: 115px;
+	width: 220px;
+	margin: -85px 0px 0px -80px;
+	/* background-color: rgb(12, 95, 12); */
+	background: url("../img/tourist.gif") 0 0 / 120px no-repeat;
+}
+
+.subtitle-list {
+	margin-bottom: 50px;
+}
+
+.subtitle-links {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.subtitle-link {
+	font-family: "StalinistOne";
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 700;
+	background-color: rgb(127, 196, 136);
+	display: block;
+	padding: 5px 20px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 10px rgb(112, 112, 112), inset 0px 0px 20px 1px rgb(234, 242, 255);
+}
+
+.subtitle-link:hover {
+	background-color: rgb(89, 97, 87);
+}
+
+.subtitle-link:last-child {
+	margin: 0;
+}
+
+.subtitle-link:focus{
+	outline: 2px solid darkgreen;
+}
+
+.block-hike {
+	display: none;
+	margin-bottom: 30px;
+}
+
+.block-hike:target {
+	display: block;
+}
+
+.text-hike {
+	font-family: "RedOctober";
+	font-size: 20px;
+	color: whitesmoke;
+	background-color: rgb(55, 102, 53);
+	border-top: 4px dotted rgb(116, 34, 34);
+	border-right: 4px dotted rgb(116, 34, 34);
+	border-bottom: 4px dotted rgb(116, 34, 34);
+	border-left: 4px dotted rgb(116, 34, 34);
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.block-compas {
+	margin-bottom: 40px;
+}
+
+.compas {
+	max-width: 950px;
+	height: 600px;
+	background-image: url("../img/1.jpg");
+	background-position: top;
+	background-repeat: round;
+	background-attachment: fixed;
+	/* margin: 0 auto; */
+	border-radius: 50%;
+}
+
+.text-four:hover~.text-five,
+.text-five:hover {
+	visibility: visible;
+}
+
+.img-one {
+	margin-bottom: 30px;
+}
+
+.img-one img{
+	border-radius: 50px;
+}
+
+.block-preparation {
+	display: none;
+	margin-bottom: 30px;
+}
+
+.block-preparation:target {
+	display: block;
+}
+
+.text-preparation {
+	color: whitesmoke;
+	background-color: rgb(102, 146, 100);
+	border-top: 4px solid rgb(140, 209, 61);
+	border-right: 4px solid rgb(140, 209, 61);
+	border-bottom: 4px solid rgb(140, 209, 61);
+	border-left: 4px solid rgb(140, 209, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Roboto Slab";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.list-preparation {
+	color: whitesmoke;
+	background-color: rgb(199, 201, 103);
+	border-top: 6px double rgb(61, 209, 165);
+	border-right: 6px double rgb(61, 209, 165);
+	border-bottom: 6px double rgb(61, 209, 165);
+	border-left: 6px double rgb(61, 209, 165);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Comforter";
+	font-size: 20px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	opacity: 0.8;
+	margin-bottom: 30px;
+}
+
+.list-preparation li {
+	margin-bottom: 15px;
+	padding-left: 30px;
+	text-align: left;
+	background: url("../img/OnlineCourse/check.svg") 0 2px / 16px no-repeat;
+}
+
+/* .list-learn li {
+	padding: 0px 0px 0px 30px;
+	margin-bottom: 15px;
+	background-color: rgb(141, 127, 155);
+	background: url("../img/OnlineCourse/check.svg") 0 2px / 16px no-repeat;
+} */
+
+.list-preparation li:last-child {
+	margin: 0;
+}
+
+.img-two {
+	display: none;
+}
+
+.list-preparation:hover ~.img-two,
+.img-two:hover {
+	display: block;
+}
+
+.img-two img {
+	border-radius: 50px;
+	max-width: 100%;
+}
+
+.block-what {
+	display: none;
+	margin-bottom: 30px;
+}
+
+.block-what:target {
+	display: block;
+}
+
+.text-what {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 6px groove rgb(209, 61, 61);
+	border-right: 6px groove rgb(209, 61, 61);
+	border-bottom: 6px groove rgb(209, 61, 61);
+	border-left: 6px groove rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "SFProDisplay";
+	font-weight: 300;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-it {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 6px ridge rgb(209, 61, 61);
+	border-right: 6px ridge rgb(209, 61, 61);
+	border-bottom: 6px ridge rgb(209, 61, 61);
+	border-left: 6px ridge rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Lutsk-sity";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.block-cliffhanger {
+	margin-bottom: 40px;
+}
+
+.cliffhanger {
+	width: 600px;
+	height: 600px;
+	background-image: url("../img/7.jpg");
+	background-position: top;
+	background-repeat: round;
+	background-attachment: fixed;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.text-at {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px inset rgb(209, 61, 61);
+	border-right: 4px inset rgb(209, 61, 61);
+	border-bottom: 4px inset rgb(209, 61, 61);
+	border-left: 4px inset rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "AmerikaPro";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-soon {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Brozas";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	/* margin-bottom: 20px; */
+	opacity: 0.8;
+}
+
+.subtitle-collect {
+	margin-bottom: 30px;
+	font-family: "SFProDisplay";
+	font-weight: 700;
+}
+
+.block-circumstance {
+	display: none;
+	/* margin-bottom: 30px; */
+}
+
+.block-circumstance:target {
+	display: block;
+}
+
+.text-circumstance {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px outset rgb(209, 61, 61);
+	border-right: 4px outset rgb(209, 61, 61);
+	border-bottom: 4px outset rgb(209, 61, 61);
+	border-left: 4px outset rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "KenyanCoffeeStencilSb";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-base {
+	margin-bottom: 30px;
+}
+
+.text-divide {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px solid rgb(209, 61, 61);
+	border-right: 4px solid rgb(209, 61, 61);
+	border-bottom: 4px solid rgb(209, 61, 61);
+	border-left: 4px solid rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Kramola";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.img-three {
+	margin-bottom: 30px;
+}
+
+.img-three img{
+	max-width: 100%;
+}
+
+.subtitle-backpack {
+	margin-bottom: 30px;
+}
+
+.text-backpack {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px solid rgb(209, 61, 61);
+	border-right: 4px solid rgb(209, 61, 61);
+	border-bottom: 4px solid rgb(209, 61, 61);
+	border-left: 4px solid rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "RedOctober";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-light {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "RuslanDisplay";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-choose {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px double rgb(209, 61, 61);
+	border-right: 4px double rgb(209, 61, 61);
+	border-bottom: 4px double rgb(209, 61, 61);
+	border-left: 4px double rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Veselka4F";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-tent {
+	margin-bottom: 30px;
+	font-family: "Veles";
+	font-weight: 700;
+}
+
+.text-preferably {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "StalinistOne";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-bag {
+	margin-bottom: 30px;
+}
+
+.text-rent {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Roboto Slab";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-season {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 8px double rgb(209, 61, 61);
+	border-right: 8px double rgb(209, 61, 61);
+	border-bottom: 8px double rgb(209, 61, 61);
+	border-left: 8px double rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Comforter";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-carpet {
+	margin-bottom: 30px;
+}
+
+.text-always {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "SFProDisplay";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-maximum {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Lutsk-sity";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-seat {
+	margin-bottom: 30px;
+}
+
+.text-compact {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "AmerikaPro";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-chereviki {
+	margin-bottom: 30px;
+}
+
+.text-demiseason {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Brozas";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-utmost {
+	color: whitesmoke;
+	background-color: rgb(144, 194, 142);
+	border-top: 4px dashed rgb(138, 82, 82);
+	border-right: 4px dashed rgb(138, 82, 82);
+	border-bottom: 4px dashed rgb(138, 82, 82);
+	border-left: 4px dashed rgb(138, 82, 82);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "KenyanCoffeeStencilSb";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-likhtarik {
+	margin-bottom: 30px;
+}
+
+.text-evening {
+	color: whitesmoke;
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Kramola";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-map {
+	margin-bottom: 30px;
+}
+
+.block-map {
+	margin-bottom: 40px;
+}
+
+.map {
+	max-width: 100%px;
+	height: 600px;
+	background-image: url('../img/4.jpg');
+	background-position: top;
+	background-repeat: round;
+	background-attachment: fixed;
+	margin: 0 auto;
+	border-radius: 50px;
+}
+
+.img-four {
+	margin-bottom: 30px;
+}
+
+.img-four img{
+	border-radius: 50px;
+}
+
+.text-map {
+	color: whitesmoke;
+	background-color: rgb(103, 178, 201);
+	border-top: 4px dashed rgb(155, 61, 209);
+	border-right: 4px dashed rgb(155, 61, 209);
+	border-bottom: 4px dashed rgb(155, 61, 209);
+	border-left: 4px dashed rgb(155, 61, 209);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "RedOctober";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.subtitle-lamp {
+	margin-bottom: 30px;
+}
+
+.text-bonfire {
+	color: whitesmoke;
+	background-color: rgb(103, 165, 201);
+	border-top: 4px dashed rgb(194, 209, 61);
+	border-right: 4px dashed rgb(194, 209, 61);
+	border-bottom: 4px dashed rgb(194, 209, 61);
+	border-left: 4px dashed rgb(194, 209, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "RuslanDisplay";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-speedup {
+	color: whitesmoke;
+	background-color: rgb(201, 199, 103);
+	border-top: 4px dashed rgb(61, 83, 209);
+	border-right: 4px dashed rgb(61, 83, 209);
+	border-bottom: 4px dashed rgb(61, 83, 209);
+	border-left: 4px dashed rgb(61, 83, 209);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Veselka4F";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-kitchen {
+	color: whitesmoke;
+	background-color: rgb(201, 103, 163);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "StalinistOne";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.text-additionally {
+	color: whitesmoke;
+	background-color: rgb(158, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "KenyanCoffeeStencilSb";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.additionally-list{
+	margin-bottom: 30px;
+	
+}
+
+.additionally-list li {
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+.text-decide {
+	color: whitesmoke;
+	background-color: rgb(103, 201, 160);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "RedOctober";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	opacity: 0.8;
+}
+
+.block {
+	width: 810px;
+	margin: 0px auto;
+	text-align: left;;
+}
+
+.block-two {
+	margin-bottom: 70px;
+	background-color: white;
+}
+
+.block-text {
+	margin-bottom: 28px;
+}
+
+.block-three {
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-right: 0px;
+	margin-bottom: 40px;
+}
+
+.block-four {
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom: 28px;
+}
+
+.list {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 1px 1px 5px rgb(37, 37, 37);
+}
+.text-one {
+	font-size: 20px;
+	font-family: "lato";
+	font-weight: 700;
+	color: black;
+	line-height: 30px;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+	margin-bottom: 38px;
+}
+.text-two {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+	line-height: 26px;
+}
+
+.text-three {
+	font-size: 20px;
+	font-family: "lato";
+	font-weight: 700;
+	color: black;
+	line-height: 30px;
+}
+
+.block-one {
+	width: 810px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.text-list li{
+	margin-bottom: 10px;
+	padding: 10px 0px 0px 20px;
+}
+
+.block-eight {
+	margin-bottom: 50px;
+	visibility: hidden;
+}
+
+.block-end {
+	margin-bottom: 100px;
+}
+
+.block-margin {
+	margin-bottom: 50px;
+}
+
+.button-up {
+	margin: 0 auto;
+	max-width: 115px;
+}
+
+.text-end {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+	line-height: 26px;
+	padding-bottom: 30px;
+}
+
+.button {
+	color: beige;
+	font-family: "Comforter";
+	font-size: 40px;
+	display: inline-block;
+	background-color: rgb(193, 219, 159);
+	padding: 20px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px 5px rgb(41, 41, 41), inset 0px 0px 20px 1px rgb(234, 242, 255);
+}
+
+.button:hover {
+	color: rgb(54, 87, 54);
+	text-decoration: underline;
+}
+
+.button:active {
+	color: rgb(214, 123, 4);
+	text-decoration: underline;
+}
+
+.block-tab {
+	margin: 0 auto;
+	max-width: 900px;
+	min-height: 500px;
+	background-color: darkgoldenrod;
+	text-align: center;
+}
+
+.tab-1 {
+	display: inline-block;
+	
+}
+
+.title-tab-1 {
+	max-width: 100px;
+	background-color: darkgray;
+	border-radius: 20px 20px 0px 0px;
+	padding: 10px;
+}
+
+.text-tab-one {
+	/* display: none; */
+}
+
+.text-tab-one:target {
+	display: block;
+}
+
+.tab-2 {
+	display: inline-block;
+}
+
+.title-tab-2 {
+	max-width: 100px;
+	background-color: darkgray;
+	border-radius: 20px 20px 0px 0px;
+	padding: 10px;
+}
+
+.text-tab-two {
+	display: none;
+}
+
+.text-tab-two:target {
+	display: block;
+}
+
+.tab-3 {
+	display: inline-block;
+}
+
+.title-tab-3 {
+	max-width: 100px;
+	background-color: darkgray;
+	border-radius: 20px 20px 0px 0px;
+	padding: 10px;
+}
+
+.text-tab-three {
+	display: none;
+}
+
+.text-tab-three:target {
+	display: block;
+}
+
+
